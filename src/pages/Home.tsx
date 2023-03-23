@@ -1,24 +1,14 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Home.css';
+import { useState } from 'react';
+import { InputDate, InputTime } from '@IraSoro/ionic-datetime-input';
 
 const Home: React.FC = () => {
+  const [date, setDate] = useState("");
+  const [time, setTime] = useState("");
   return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
-      </IonContent>
-    </IonPage>
+    <>
+      <InputDate value={date} setValue={setDate} color="success" />
+      <InputTime value={time} setValue={setTime} color="success" />
+    </>
   );
 };
 
