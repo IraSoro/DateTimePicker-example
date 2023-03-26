@@ -23,14 +23,18 @@ const CustomExample = () => {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
 
+  function myConvert(date: string){
+    return date.slice(0, 10);
+  }
+
   return (
     <IonCard>
       <IonCardHeader>
         <IonCardTitle color="danger">Custom example</IonCardTitle>
       </IonCardHeader>
       <IonCardContent>
-        <InputDate value={date} setValue={setDate} inputID="2" isConvert={true} color="danger" title="Russian date" locale="ru" />
-        <InputTime value={time} setValue={setTime} inputID="1" isConvert={true} color="danger" title="Russian time" locale="ru" />
+        <InputDate value={date} setValue={setDate} inputID="2" funConvert={myConvert} color="danger" title="Russian date" locale="ru" />
+        <InputTime value={time} setValue={setTime} inputID="1" funConvert={myConvert} color="danger" title="Russian time" locale="ru" />
       </IonCardContent>
     </IonCard>
   );
