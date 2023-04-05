@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/DateTimePicker-example/static/css/main.44bbadb9.css",
+    "main.js": "/DateTimePicker-example/static/js/main.0a486021.js",
+    "static/js/738.9c212687.chunk.js": "/DateTimePicker-example/static/js/738.9c212687.chunk.js",
+    "static/js/372.ec71fafa.chunk.js": "/DateTimePicker-example/static/js/372.ec71fafa.chunk.js",
+    "static/js/856.ae6d9eca.chunk.js": "/DateTimePicker-example/static/js/856.ae6d9eca.chunk.js",
+    "static/js/22.3339c7cd.chunk.js": "/DateTimePicker-example/static/js/22.3339c7cd.chunk.js",
+    "static/js/272.45764ad4.chunk.js": "/DateTimePicker-example/static/js/272.45764ad4.chunk.js",
+    "static/js/841.c20b81c5.chunk.js": "/DateTimePicker-example/static/js/841.c20b81c5.chunk.js",
+    "static/js/186.93a1f77a.chunk.js": "/DateTimePicker-example/static/js/186.93a1f77a.chunk.js",
+    "static/js/377.ff874c9c.chunk.js": "/DateTimePicker-example/static/js/377.ff874c9c.chunk.js",
+    "service-worker.js": "/DateTimePicker-example/service-worker.js",
+    "index.html": "/DateTimePicker-example/index.html",
+    "main.44bbadb9.css.map": "/DateTimePicker-example/static/css/main.44bbadb9.css.map",
+    "main.0a486021.js.map": "/DateTimePicker-example/static/js/main.0a486021.js.map",
+    "738.9c212687.chunk.js.map": "/DateTimePicker-example/static/js/738.9c212687.chunk.js.map",
+    "372.ec71fafa.chunk.js.map": "/DateTimePicker-example/static/js/372.ec71fafa.chunk.js.map",
+    "856.ae6d9eca.chunk.js.map": "/DateTimePicker-example/static/js/856.ae6d9eca.chunk.js.map",
+    "22.3339c7cd.chunk.js.map": "/DateTimePicker-example/static/js/22.3339c7cd.chunk.js.map",
+    "272.45764ad4.chunk.js.map": "/DateTimePicker-example/static/js/272.45764ad4.chunk.js.map",
+    "841.c20b81c5.chunk.js.map": "/DateTimePicker-example/static/js/841.c20b81c5.chunk.js.map",
+    "186.93a1f77a.chunk.js.map": "/DateTimePicker-example/static/js/186.93a1f77a.chunk.js.map",
+    "377.ff874c9c.chunk.js.map": "/DateTimePicker-example/static/js/377.ff874c9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44bbadb9.css",
+    "static/js/main.0a486021.js"
+  ]
+}
